@@ -1,6 +1,0 @@
-<<<<<<< HEAD
-Test
-Logan 
-=======
-Test
->>>>>>> origin/main
