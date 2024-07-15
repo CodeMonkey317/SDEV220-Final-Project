@@ -1,0 +1,18 @@
+{% extends "inventory/base.html" %}
+
+{% block content %}
+    <div class="row">
+        <div class="col-11 col-md-4 mx-auto mt-5">
+            <h3>
+                You&apos;ve been successfully logged out, and may now close the window.
+            </h3>
+            <div class="border-top pt-3">
+                <small>
+                    <a href="{% url 'login' %}">
+                        Return to Login screen
+                    </a>
+                </small>
+            </div>
+        </div>
+    </div>
+{% endblock content %}
